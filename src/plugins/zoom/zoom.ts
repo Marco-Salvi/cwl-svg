@@ -18,7 +18,7 @@ export class ZoomPlugin extends PluginBase {
         return () => this.svg.removeEventListener("wheel", handler, true);
     }
 
-    onMouseWheel(event: MouseWheelEvent) {
+    onMouseWheel(event: WheelEvent) {
 
         const scale       = this.workflow.scale;
         const scaleUpdate = scale - event.deltaY / 500;
