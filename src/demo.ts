@@ -15,7 +15,7 @@ import {SelectionPlugin}    from "./plugins/selection/selection";
 import {SVGEdgeHoverPlugin} from "./plugins/edge-hover/edge-hover";
 import {ZoomPlugin}         from "./plugins/zoom/zoom";
 
-const sample = require(__dirname + "/../cwl-samples/rna-seq-alignment.json");
+const sample = require(__dirname + "/../cwl-samples/wf5201.json");
 
 const wf = WorkflowFactory.from(sample);
 

@@ -39,7 +39,7 @@ export class GraphNode {
 
             if (model.run.class === "Workflow") {
                 iconStr = this.workflowIconSvg;
-            } else if (model.run.class === "CommandLineTool") {
+            } else if (model.run.class === "Operation") {
                 iconStr = this.toolIconSvg;
             }
 
